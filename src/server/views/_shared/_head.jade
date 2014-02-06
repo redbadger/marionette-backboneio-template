@@ -1,0 +1,14 @@
+head
+  meta(charset='utf-8')
+  title Marionette Boilerplate
+  meta(name='description', content='')
+  meta(name='author', content='')
+
+  script(type="text/javascript", src="//localhost:35729/livereload.js")
+  script(type="text/javascript", data-main="main", src="libs/requirejs/require.js")
+  link(rel="stylesheet", type="text/css", href="assets/css/styles.css")
+
+
+  block scripts
+    script
+      require(['application', 'app'], function(App) { App.start(); });
