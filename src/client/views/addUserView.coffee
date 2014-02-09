@@ -7,7 +7,6 @@ define [
 
   Backbone.Marionette.ItemView.extend
     template: template
-    tagName: 'form'
     className: 'form-inline'
     attributes:
       role: 'form'
